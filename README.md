@@ -18,3 +18,13 @@ rcb@RyansDesktop:~/repos/learning-cython$ sudo apt-get install build-essential p
 ```bash
 rcb@RyansDesktop:~/repos/learning-cython$ uv add Cython setuptools
 ```
+
+## Operation
+
+[Followed this with modifications](https://cython.readthedocs.io/en/latest/src/quickstart/build.html#building-a-cython-module-using-setuptools)
+
+1. Create example logic in `logic.pyx`
+2. Create `setup.py`
+3. Run `bulid_it.sh`
+4. Create `test_so_library.py`
+5. Run `test_so_library.py`
